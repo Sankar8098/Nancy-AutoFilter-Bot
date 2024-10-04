@@ -12,17 +12,17 @@ def is_enabled(value, default):
         return default
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
-SESSION = environ.get('SESSION', 'Media_search')
+SESSION = environ.get('SESSION', '23990433')
 API_ID = int(environ.get('API_ID', '15529802'))
-API_HASH = environ.get('API_HASH', '92bcb6aa798a6f1feadbc917fccb54d3')
-BOT_TOKEN = environ.get('BOT_TOKEN', '5277636826:AAHxRTPk9fUEBdayP-gSJv6YfyFQxV4Eecs')
+API_HASH = environ.get('API_HASH', 'e6c4b6ee1933711bc4da9d7d17e1eb20')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7077611383:AAHFzZZDBhpR-e39lwzvHaV8V5jnDPbd2cQ')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6072149828').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/MrXeonTG") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001712245798'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/JisshuMovieZone')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001608454110').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5821871362').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/Sab537") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001870015374'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'SK_MoviesOffl')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001818253894').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://4GBRENAME:4GBRENAME@cluster0.coinv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -31,11 +31,11 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Eva_bot')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001712245798'))  
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002479911955'))
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001870015374'))  
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1001870015374'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002165663890'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1001542373688')
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001870015374'))
+auth_channel = environ.get('AUTH_CHANNEL', '-1001818253894')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '0'))
 request_channel = environ.get('REQUEST_CHANNEL', '0')
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0'))
